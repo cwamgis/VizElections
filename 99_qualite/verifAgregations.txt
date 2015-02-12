@@ -1,0 +1,68 @@
+----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------echantillon de données brutes test abstention-----------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+################################## donnnes brutes ################################## 
+
+> db.electionsBrutes.find({"libelleScrutin":"Législatives 2012 - 1er Tour","insee":"75112"},{"nbExprimes":1,nbInscrits:1})
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc75"), "nbInscrits" : 1473, "nbExprimes" : 914 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc76"), "nbInscrits" : 1473, "nbExprimes" : 914 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc77"), "nbInscrits" : 1342, "nbExprimes" : 838 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc78"), "nbInscrits" : 1342, "nbExprimes" : 838 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc79"), "nbInscrits" : 1381, "nbExprimes" : 778 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc7a"), "nbInscrits" : 1381, "nbExprimes" : 778 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc7b"), "nbInscrits" : 1381, "nbExprimes" : 778 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc7c"), "nbInscrits" : 1290, "nbExprimes" : 739 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc7d"), "nbInscrits" : 1290, "nbExprimes" : 739 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc7e"), "nbInscrits" : 1290, "nbExprimes" : 739 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc7f"), "nbInscrits" : 1588, "nbExprimes" : 894 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc80"), "nbInscrits" : 1588, "nbExprimes" : 894 }
+{ "_id" : ObjectId("54d33d10ccfa2d114cfecc81"), "nbInscrits" : 1551, "nbExprimes" : 1000 }
+
+
+######################################### agregation par bureau de vote ################################## 
+> db.agregtmp.find({"libelleScrutin":"Législatives 2012 - 1er Tour","insee":"75112"},{"_id":0})
+{ "nbInscrits" : 1551, "insee" : "75112", "libelleScrutin" : "Législatives 2012 - 1er Tour", "nbExprimes" : 1000, "numBureauVote" : 52 }
+{ "nbInscrits" : 1588, "insee" : "75112", "libelleScrutin" : "Législatives 2012 - 1er Tour", "nbExprimes" : 894, "numBureauVote" : 51 }
+{ "nbInscrits" : 1342, "insee" : "75112", "libelleScrutin" : "Législatives 2012 - 1er Tour", "nbExprimes" : 838, "numBureauVote" : 40 }
+{ "nbInscrits" : 1473, "insee" : "75112", "libelleScrutin" : "Législatives 2012 - 1er Tour", "nbExprimes" : 914, "numBureauVote" : 39 }
+{ "nbInscrits" : 1381, "insee" : "75112", "libelleScrutin" : "Législatives 2012 - 1er Tour", "nbExprimes" : 778, "numBureauVote" : 48 }
+{ "nbInscrits" : 1290, "insee" : "75112", "libelleScrutin" : "Législatives 2012 - 1er Tour", "nbExprimes" : 739, "numBureauVote" : 50 }
+
+
+######################################### agregation par arrondissement ################################## 
+
+> db.electionsFinales.find({"libelleScrutin":"Législatives 2012 - 1er Tour","insee":"75112"})
+{ "_id" : ObjectId("54d33d1eccfa2d11512c906d"), "nbExprimes" : 5163, "insee" : "75112", "libelleScrutin" : "Législatives 2012 - 1er Tour", "nbInscrits" : 8625 }
+
+----------------------------------------------------------------------------------------------------------------------
+------------------------------------------- lot entier abstention----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+> db.electionsBrutes.count()
+123886
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+------------------------------------------- lot entier resultats----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+> db.electionsBrutes.find({"nom":"CARESCHE","prenom":"Christophe","libelleScrutin":"Législatives 2012 - 1er Tour","dateScrutin":"2012-06-10","insee":"75109"},{"nom":1,"nbExprimes":1,"nbVotes":1,"_id":0,dateScrutin:1,libelleScrutin:1})
+{ "nom" : "CARESCHE", "nbVotes" : 451, "libelleScrutin" : "Législatives 2012 - 1er Tour", "dateScrutin" : "2012-06-10", "nbExprimes" : 908 }
+{ "nom" : "CARESCHE", "nbVotes" : 364, "libelleScrutin" : "Législatives 2012 - 1er Tour", "dateScrutin" : "2012-06-10", "nbExprimes" : 856 }
+{ "nom" : "CARESCHE", "nbVotes" : 346, "libelleScrutin" : "Législatives 2012 - 1er Tour", "dateScrutin" : "2012-06-10", "nbExprimes" : 878 }
+{ "nom" : "CARESCHE", "nbVotes" : 377, "libelleScrutin" : "Législatives 2012 - 1er Tour", "dateScrutin" : "2012-06-10", "nbExprimes" : 876 }
+nbExprimes = 3518
+nbVotes = 1538
+
+> db.electionsFinalesResultats.findOne()
+{
+	"_id" : ObjectId("54da38aeccfa2d0d6824f7f8"),
+	"nom" : "CARESCHE",
+	"insee" : "75109",
+	"prenom" : "Christophe",
+	"nbExprimes" : 3518,
+	"nbVotes" : 1538,
+	"libelleScrutin" : "Législatives 2012 - 1er Tour",
+	"dateScrutin" : "2012-06-10"
+}
+

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="arrondissements_centroides_pseudo_mercator" id="arrondissements_centroides_pseudo_mercator">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="N_SQ_AR" type="int"></SimpleField>
+	<SimpleField name="C_AR" type="int"></SimpleField>
+	<SimpleField name="C_ARINSEE" type="int"></SimpleField>
+	<SimpleField name="L_AR" type="string"></SimpleField>
+	<SimpleField name="L_AROFF" type="string"></SimpleField>
+	<SimpleField name="N_SQ_CO" type="int"></SimpleField>
+	<SimpleField name="NB_POP99" type="int"></SimpleField>
+	<SimpleField name="NB_POP08" type="int"></SimpleField>
+	<SimpleField name="NB_POP10" type="int"></SimpleField>
+	<SimpleField name="POU_E99_10" type="float"></SimpleField>
+	<SimpleField name="SHAPE_AREA" type="float"></SimpleField>
+	<SimpleField name="SHAPE_LEN" type="float"></SimpleField>
+</Schema>
+<Folder><name>arrondissements_centroides_pseudo_mercator</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="N_SQ_AR">750000019</SimpleData>
+		<SimpleData name="C_AR">19</SimpleData>
+		<SimpleData name="C_ARINSEE">75119</SimpleData>
+		<SimpleData name="L_AR">19me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Buttes-Chaumont</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">172587</SimpleData>
+		<SimpleData name="NB_POP08">184909</SimpleData>
+		<SimpleData name="NB_POP10">186652</SimpleData>
+		<SimpleData name="POU_E99_10">8.14951300</SimpleData>
+		<SimpleData name="SHAPE_AREA">6792651.10470999964</SimpleData>
+		<SimpleData name="SHAPE_LEN">11252.94319840000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.384821497582878,48.887075317188476</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="N_SQ_AR">750000005</SimpleData>
+		<SimpleData name="C_AR">5</SimpleData>
+		<SimpleData name="C_ARINSEE">75105</SimpleData>
+		<SimpleData name="L_AR">5me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Panthon</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">58841</SimpleData>
+		<SimpleData name="NB_POP08">62143</SimpleData>
+		<SimpleData name="NB_POP10">60938</SimpleData>
+		<SimpleData name="POU_E99_10">3.56384154</SimpleData>
+		<SimpleData name="SHAPE_AREA">2539374.69103999995</SimpleData>
+		<SimpleData name="SHAPE_LEN">6238.82337081000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.35071458956874,48.844443066676973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="N_SQ_AR">750000020</SimpleData>
+		<SimpleData name="C_AR">20</SimpleData>
+		<SimpleData name="C_ARINSEE">75120</SimpleData>
+		<SimpleData name="L_AR">20me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Mnilmontant</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">183093</SimpleData>
+		<SimpleData name="NB_POP08">195083</SimpleData>
+		<SimpleData name="NB_POP10">196880</SimpleData>
+		<SimpleData name="POU_E99_10">7.53005303</SimpleData>
+		<SimpleData name="SHAPE_AREA">5983446.06029000040</SimpleData>
+		<SimpleData name="SHAPE_LEN">10704.48362440000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.401189066593942,48.863459779154432</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="N_SQ_AR">750000001</SimpleData>
+		<SimpleData name="C_AR">1</SimpleData>
+		<SimpleData name="C_ARINSEE">75101</SimpleData>
+		<SimpleData name="L_AR">1er Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Louvre</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">16895</SimpleData>
+		<SimpleData name="NB_POP08">17440</SimpleData>
+		<SimpleData name="NB_POP10">17308</SimpleData>
+		<SimpleData name="POU_E99_10">2.44451021</SimpleData>
+		<SimpleData name="SHAPE_AREA">1824612.88086999999</SimpleData>
+		<SimpleData name="SHAPE_LEN">6054.68083144000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.336443858369255,48.862562763535784</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="N_SQ_AR">750000010</SimpleData>
+		<SimpleData name="C_AR">10</SimpleData>
+		<SimpleData name="C_ARINSEE">75110</SimpleData>
+		<SimpleData name="L_AR">10me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Entrept</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">89685</SimpleData>
+		<SimpleData name="NB_POP08">94321</SimpleData>
+		<SimpleData name="NB_POP10">95394</SimpleData>
+		<SimpleData name="POU_E99_10">6.36561298</SimpleData>
+		<SimpleData name="SHAPE_AREA">2891739.38194999984</SimpleData>
+		<SimpleData name="SHAPE_LEN">6739.16820360000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.360728603520717,48.876129892977374</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="N_SQ_AR">750000013</SimpleData>
+		<SimpleData name="C_AR">13</SimpleData>
+		<SimpleData name="C_ARINSEE">75113</SimpleData>
+		<SimpleData name="L_AR">13me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Gobelins</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">171577</SimpleData>
+		<SimpleData name="NB_POP08">179500</SimpleData>
+		<SimpleData name="NB_POP10">181532</SimpleData>
+		<SimpleData name="POU_E99_10">5.80205972</SimpleData>
+		<SimpleData name="SHAPE_AREA">7149311.06790000014</SimpleData>
+		<SimpleData name="SHAPE_LEN">11545.68686540000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.362272272250755,48.82838788224705</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="N_SQ_AR">750000009</SimpleData>
+		<SimpleData name="C_AR">9</SimpleData>
+		<SimpleData name="C_ARINSEE">75109</SimpleData>
+		<SimpleData name="L_AR">9me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Opra</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">55783</SimpleData>
+		<SimpleData name="NB_POP08">59157</SimpleData>
+		<SimpleData name="NB_POP10">60139</SimpleData>
+		<SimpleData name="POU_E99_10">7.80883065</SimpleData>
+		<SimpleData name="SHAPE_AREA">2178303.28429999994</SimpleData>
+		<SimpleData name="SHAPE_LEN">6471.38931850000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.337457458491005,48.877163472997097</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="N_SQ_AR">750000006</SimpleData>
+		<SimpleData name="C_AR">6</SimpleData>
+		<SimpleData name="C_ARINSEE">75106</SimpleData>
+		<SimpleData name="L_AR">6me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Luxembourg</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">44903</SimpleData>
+		<SimpleData name="NB_POP08">44322</SimpleData>
+		<SimpleData name="NB_POP10">43451</SimpleData>
+		<SimpleData name="POU_E99_10">-3.23363695</SimpleData>
+		<SimpleData name="SHAPE_AREA">2153095.57557999995</SimpleData>
+		<SimpleData name="SHAPE_LEN">6483.32446519000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.332897671829519,48.849130161717937</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="N_SQ_AR">750000016</SimpleData>
+		<SimpleData name="C_AR">16</SimpleData>
+		<SimpleData name="C_ARINSEE">75116</SimpleData>
+		<SimpleData name="L_AR">16me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Passy</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">161817</SimpleData>
+		<SimpleData name="NB_POP08">165074</SimpleData>
+		<SimpleData name="NB_POP10">171124</SimpleData>
+		<SimpleData name="POU_E99_10">5.75155886</SimpleData>
+		<SimpleData name="SHAPE_AREA">16372542.16200000048</SimpleData>
+		<SimpleData name="SHAPE_LEN">17415.32661440000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.261969545763169,48.860391514473896</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="N_SQ_AR">750000002</SimpleData>
+		<SimpleData name="C_AR">2</SimpleData>
+		<SimpleData name="C_ARINSEE">75102</SimpleData>
+		<SimpleData name="L_AR">2me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Bourse</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">19640</SimpleData>
+		<SimpleData name="NB_POP08">21793</SimpleData>
+		<SimpleData name="NB_POP10">23009</SimpleData>
+		<SimpleData name="POU_E99_10">17.15376782</SimpleData>
+		<SimpleData name="SHAPE_AREA">991153.78650900000</SimpleData>
+		<SimpleData name="SHAPE_LEN">4553.93880772000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.342802717310693,48.868279333139064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="N_SQ_AR">750000007</SimpleData>
+		<SimpleData name="C_AR">7</SimpleData>
+		<SimpleData name="C_ARINSEE">75107</SimpleData>
+		<SimpleData name="L_AR">7me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Palais-Bourbon</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">56988</SimpleData>
+		<SimpleData name="NB_POP08">57082</SimpleData>
+		<SimpleData name="NB_POP10">57974</SimpleData>
+		<SimpleData name="POU_E99_10">1.73018881</SimpleData>
+		<SimpleData name="SHAPE_AREA">4090057.11250999989</SimpleData>
+		<SimpleData name="SHAPE_LEN">8099.03301934000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.312187875083927,48.856174530263836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="N_SQ_AR">750000011</SimpleData>
+		<SimpleData name="C_AR">11</SimpleData>
+		<SimpleData name="C_ARINSEE">75111</SimpleData>
+		<SimpleData name="L_AR">11me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Popincourt</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">149166</SimpleData>
+		<SimpleData name="NB_POP08">152672</SimpleData>
+		<SimpleData name="NB_POP10">153202</SimpleData>
+		<SimpleData name="POU_E99_10">2.70571042</SimpleData>
+		<SimpleData name="SHAPE_AREA">3665441.60900999978</SimpleData>
+		<SimpleData name="SHAPE_LEN">8281.63525341000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.380059302922652,48.859058891452818</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="N_SQ_AR">750000004</SimpleData>
+		<SimpleData name="C_AR">4</SimpleData>
+		<SimpleData name="C_ARINSEE">75104</SimpleData>
+		<SimpleData name="L_AR">4me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Htel-de-Ville</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">30671</SimpleData>
+		<SimpleData name="NB_POP08">27977</SimpleData>
+		<SimpleData name="NB_POP10">28012</SimpleData>
+		<SimpleData name="POU_E99_10">-8.66942715</SimpleData>
+		<SimpleData name="SHAPE_AREA">1600585.57828000002</SimpleData>
+		<SimpleData name="SHAPE_LEN">5420.63664939000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.357629996480192,48.854341395143777</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="N_SQ_AR">750000012</SimpleData>
+		<SimpleData name="C_AR">12</SimpleData>
+		<SimpleData name="C_ARINSEE">75112</SimpleData>
+		<SimpleData name="L_AR">12me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Reuilly</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">136662</SimpleData>
+		<SimpleData name="NB_POP08">142673</SimpleData>
+		<SimpleData name="NB_POP10">144262</SimpleData>
+		<SimpleData name="POU_E99_10">5.56116550</SimpleData>
+		<SimpleData name="SHAPE_AREA">16314782.69539999962</SimpleData>
+		<SimpleData name="SHAPE_LEN">24088.03924410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.421329277919046,48.83497665736509</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="N_SQ_AR">750000008</SimpleData>
+		<SimpleData name="C_AR">8</SimpleData>
+		<SimpleData name="C_ARINSEE">75108</SimpleData>
+		<SimpleData name="L_AR">8me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">lyse</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">39303</SimpleData>
+		<SimpleData name="NB_POP08">38702</SimpleData>
+		<SimpleData name="NB_POP10">41280</SimpleData>
+		<SimpleData name="POU_E99_10">5.03015037</SimpleData>
+		<SimpleData name="SHAPE_AREA">3880036.44068000000</SimpleData>
+		<SimpleData name="SHAPE_LEN">7880.26071997000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.312553746837598,48.872720693870171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="N_SQ_AR">750000017</SimpleData>
+		<SimpleData name="C_AR">17</SimpleData>
+		<SimpleData name="C_ARINSEE">75117</SimpleData>
+		<SimpleData name="L_AR">17me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Batignolles-Monceau</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">161138</SimpleData>
+		<SimpleData name="NB_POP08">167070</SimpleData>
+		<SimpleData name="NB_POP10">169325</SimpleData>
+		<SimpleData name="POU_E99_10">5.08073825</SimpleData>
+		<SimpleData name="SHAPE_AREA">5668834.53419000003</SimpleData>
+		<SimpleData name="SHAPE_LEN">10775.34892480000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.306775061104134,48.887326555619445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="N_SQ_AR">750000014</SimpleData>
+		<SimpleData name="C_AR">14</SimpleData>
+		<SimpleData name="C_ARINSEE">75114</SimpleData>
+		<SimpleData name="L_AR">14me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Observatoire</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">132822</SimpleData>
+		<SimpleData name="NB_POP08">136464</SimpleData>
+		<SimpleData name="NB_POP10">138299</SimpleData>
+		<SimpleData name="POU_E99_10">4.12356387</SimpleData>
+		<SimpleData name="SHAPE_AREA">5614877.34145999979</SimpleData>
+		<SimpleData name="SHAPE_LEN">10316.72002010000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.32654222919031,48.829244193878225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="N_SQ_AR">750000018</SimpleData>
+		<SimpleData name="C_AR">18</SimpleData>
+		<SimpleData name="C_ARINSEE">75118</SimpleData>
+		<SimpleData name="L_AR">18me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Buttes-Montmartre</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">184581</SimpleData>
+		<SimpleData name="NB_POP08">196000</SimpleData>
+		<SimpleData name="NB_POP10">202685</SimpleData>
+		<SimpleData name="POU_E99_10">9.80816010</SimpleData>
+		<SimpleData name="SHAPE_AREA">5996051.32017999981</SimpleData>
+		<SimpleData name="SHAPE_LEN">9916.30372720000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.348160118863825,48.892569398874066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="N_SQ_AR">750000015</SimpleData>
+		<SimpleData name="C_AR">15</SimpleData>
+		<SimpleData name="C_ARINSEE">75115</SimpleData>
+		<SimpleData name="L_AR">15me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Vaugirard</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">225467</SimpleData>
+		<SimpleData name="NB_POP08">234091</SimpleData>
+		<SimpleData name="NB_POP10">236715</SimpleData>
+		<SimpleData name="POU_E99_10">4.98875667</SimpleData>
+		<SimpleData name="SHAPE_AREA">8494994.06475000083</SimpleData>
+		<SimpleData name="SHAPE_LEN">13677.92325550000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.292825521807612,48.840085250604822</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#arrondissements_centroides_pseudo_mercator">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="N_SQ_AR">750000003</SimpleData>
+		<SimpleData name="C_AR">3</SimpleData>
+		<SimpleData name="C_ARINSEE">75103</SimpleData>
+		<SimpleData name="L_AR">3me Ardt</SimpleData>
+		<SimpleData name="L_AROFF">Temple</SimpleData>
+		<SimpleData name="N_SQ_CO">750001537</SimpleData>
+		<SimpleData name="NB_POP99">34232</SimpleData>
+		<SimpleData name="NB_POP08">34824</SimpleData>
+		<SimpleData name="NB_POP10">35652</SimpleData>
+		<SimpleData name="POU_E99_10">4.14816546</SimpleData>
+		<SimpleData name="SHAPE_AREA">1170882.88862999994</SimpleData>
+		<SimpleData name="SHAPE_LEN">4519.07199784000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.360001220344385,48.862872286532756</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

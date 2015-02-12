@@ -1,0 +1,67 @@
+INSEE Statistiques locales,,
+Revenu m‚dian par Unit‚ de Consommation,,
+"unit‚ : en euros - ann‚e : 2009 - source : Insee , DGFIP, Revenus fiscaux localis‚s des m‚nages",,
+Documentation,,
+CODEGEO,Arrondissement municipal,Valeur
+13201,Marseille 1er arrondissement,9983
+13202,Marseille 2Š arrondissement,9778
+13203,Marseille 3Š arrondissement,7298
+13204,Marseille 4Š arrondissement,17203
+13205,Marseille 5Š arrondissement,17264
+13206,Marseille 6Š arrondissement,18969
+13207,Marseille 7Š arrondissement,22046
+13208,Marseille 8Š arrondissement,23824
+13209,Marseille 9Š arrondissement,20773
+13210,Marseille 10Š arrondissement,16970
+13211,Marseille 11Š arrondissement,17431
+13212,Marseille 12Š arrondissement,21323
+13213,Marseille 13Š arrondissement,14803
+13214,Marseille 14Š arrondissement,10351
+13215,Marseille 15Š arrondissement,9707
+13216,Marseille 16Š arrondissement,14510
+69381,Lyon 1er arrondissement,20376
+69382,Lyon 2Š arrondissement,23427
+69383,Lyon 3Š arrondissement,22061
+69384,Lyon 4Š arrondissement,23164
+69385,Lyon 5Š arrondissement,21618
+69386,Lyon 6Š arrondissement,27195
+69387,Lyon 7Š arrondissement,19924
+69388,Lyon 8Š arrondissement,17352
+69389,Lyon 9Š arrondissement,16821
+75101,Paris 1er Arrondissement,31398
+75102,Paris 2e  Arrondissement,26859
+75103,Paris 3e  Arrondissement,28137
+75104,Paris 4e  Arrondissement,29610
+75105,Paris 5e  Arrondissement,32029
+75106,Paris 6e  Arrondissement,38502
+75107,Paris 7e  Arrondissement,40890
+75108,Paris 8e  Arrondissement,40099
+75109,Paris 9e  Arrondissement,29909
+75110,Paris 10e  Arrondissement,21438
+75111,Paris 11e  Arrondissement,23720
+75112,Paris 12e  Arrondissement,26198
+75113,Paris 13e  Arrondissement,21917
+75114,Paris 14e  Arrondissement,26107
+75115,Paris 15e  Arrondissement,29731
+75116,Paris 16e  Arrondissement,38205
+75117,Paris 17e  Arrondissement,28155
+75118,Paris 18e  Arrondissement,18050
+75119,Paris 19e  Arrondissement,16179
+75120,Paris 20e  Arrondissement,18252
+,,
+nd :   R‚sultat non disponible,,
+c :   R‚sultat confidentiel par application des rŠgles sur le secret statistique,,
+/// : Absence de r‚sultat due … la nature des choses,,
+,,
+La m‚diane du revenu fiscal par unit‚ de consommation partage les personnes en deux groupes : la moiti‚ des personnes appartient … un m‚nage qui d‚clare un revenu par UC inf‚rieur … cette valeur et l'autre moiti‚ pr‚sente un revenu par UC sup‚rieur.,,
+Cet indicateur permet donc de mesurer le niveau central des revenus par UC au sein d'une zone.,,
+,,
+Cet indicateur est disponible pour la France m‚tropolitaine, la Martinique et La R‚union.,,
+,,
+Les niveaux g‚ographiques propos‚s pour cet indicateur sont les niveaux g‚ographiques standard du site pour les cartes th‚matiques : commune, arrondissement municipal, canton et ville, d‚partement, zone d'emploi, r‚gion, EPCI.,,
+Cette information est fournie pour les zones standard comptant au moins 2 000 habitants :,,
+"- au sens du Recensement de la population de 1999 pour les ann‚es 2006 et 2007  ,",,
+- au sens du Recensement de la population de 2006 pour les ann‚es 2008, 2009 et 2010.,,
+L'indicateur est disponible pour les ann‚es 2006 … 2010 (2009 et 2010 pour les EPCI).,,
+Source : Insee, Revenus fiscaux localis‚s des m‚nages.,,
+Revenir en haut,,

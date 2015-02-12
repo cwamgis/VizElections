@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="arrondissementsparis" id="arrondissementsparis">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="revenuMedian" type="float"></SimpleField>
+</Schema>
+<Folder><name>arrondissementsparis</name>
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75117</SimpleData>
+		<SimpleData name="revenuMedian">28155</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.306775061104134,48.887326555619445</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75111</SimpleData>
+		<SimpleData name="revenuMedian">23720</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.380059302922652,48.859058891452818</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75101</SimpleData>
+		<SimpleData name="revenuMedian">31398</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.336443858369255,48.862562763535784</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75105</SimpleData>
+		<SimpleData name="revenuMedian">32029</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.35071458956874,48.844443066676973</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75109</SimpleData>
+		<SimpleData name="revenuMedian">29909</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.337457458491005,48.877163472997097</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75120</SimpleData>
+		<SimpleData name="revenuMedian">18252</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.401189066593942,48.863459779154432</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75110</SimpleData>
+		<SimpleData name="revenuMedian">21438</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.360728603520717,48.876129892977374</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75113</SimpleData>
+		<SimpleData name="revenuMedian">21917</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.362272272250755,48.82838788224705</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75119</SimpleData>
+		<SimpleData name="revenuMedian">16179</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.384821497582878,48.887075317188476</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75112</SimpleData>
+		<SimpleData name="revenuMedian">26198</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.421329277919046,48.83497665736509</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75115</SimpleData>
+		<SimpleData name="revenuMedian">29731</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.292825521807612,48.840085250604822</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75116</SimpleData>
+		<SimpleData name="revenuMedian">38205</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.261969545763169,48.860391514473896</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75104</SimpleData>
+		<SimpleData name="revenuMedian">29610</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.357629996480192,48.854341395143777</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75106</SimpleData>
+		<SimpleData name="revenuMedian">38502</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.332897671829519,48.849130161717937</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75114</SimpleData>
+		<SimpleData name="revenuMedian">26107</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.32654222919031,48.829244193878225</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75107</SimpleData>
+		<SimpleData name="revenuMedian">40890</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.312187875083927,48.856174530263836</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75108</SimpleData>
+		<SimpleData name="revenuMedian">40099</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.312553746837598,48.872720693870171</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75103</SimpleData>
+		<SimpleData name="revenuMedian">28137</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.360001220344385,48.862872286532756</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75118</SimpleData>
+		<SimpleData name="revenuMedian">18050</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.348160118863825,48.892569398874066</coordinates></Point>
+	  </Placemark>
+	  
+	<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arrondissementsparis">
+		<SimpleData name="OBJECTID">75102</SimpleData>
+		<SimpleData name="revenuMedian">26859</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>2.342802717310693,48.868279333139064</coordinates></Point>
+	  </Placemark>
+	  </Folder>
+</Document></kml>

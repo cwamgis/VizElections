@@ -1,0 +1,136 @@
+body
+{
+	background-color:#AAFFAA;
+}
+h1
+{
+	font-size:1.1em;
+	text-align:center;
+}
+h2
+{
+	font-size:0.9em;
+	text-align:center;
+	padding-top:20px ;
+}
+#container
+{
+	display: table;
+}
+#map{
+	display:table-cell;
+	width:70%;
+	height:650px;
+}
+#legende{
+	display:table-cell;
+	
+	vertical-align:top;
+	
+	visibility:visible;
+	position:absolute;
+	top:20px;
+	left:0px;
+}
+#classesPoly
+{
+	height:200px;
+	width:100%;
+}
+#stylePoint
+{
+	height:150px;
+}
+.source
+{
+	font-size:0.7em;
+	padding : 0px 10px 0px 10px;
+}
+#panneauDroite
+{
+	height:650px;
+	background-color:#EEEEEE;
+	position:relative;
+}
+#menu
+{
+	display : table;
+	
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:25px;
+	
+}
+#menu ul
+{
+	display : table-row;
+	
+}
+
+#menu li
+{
+	display : table-cell;
+	text-align:center;
+	font-family:Arial, sans-serif;
+		
+}
+
+#menu li a
+{
+	text-decoration:none;
+	color: #000; 
+}
+
+.menuPasSelectionne
+{
+	background-color:#AAFFAA;
+}
+
+#resultats
+{
+	display:table-cell;
+	vertical-align:top;
+	background-color:#EEEEEE;
+	visibility:hidden;
+	position:absolute;
+	top:20px;
+	left:0px;
+	width:80%;
+	padding:20px 10px 0px 10px;
+}
+
+#graphResElection
+{
+	height:200px;
+}
+
+#listeCandidats
+{
+	display : table;
+	width:100%;
+
+}
+
+#listeCandidats div
+{
+	display : table-row;
+	
+	
+}
+
+#listeCandidats div div
+{
+	display : table-cell;
+	font-size:0.8em;
+	text-align:center;
+}
+
+.couleurCamembert
+{
+	background-color:red;
+	width:40px;
+	height:15px;
+	
+}

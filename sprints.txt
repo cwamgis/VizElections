@@ -1,0 +1,94 @@
+
+
+----------------------------------------------------------
+Pour une élection donnée : faire les analyses thématiques que je veux
+
+samedi OK analyse thématique fonction d'un attribut sur la couche arrondissement
+=> ce que je n'arrive pas à fair eà ce stade c'estr relancer la fonction d'affectation de style pour qu'elle prenne en compte le min/max d'ores et déjà calculés
+Réfléchir éventuellement à une autre pente pour attaquer le problème
+
+samedi OK- points centroide à partir de la couche arrondissements shp
+samedi OK- conversion en kml
+samedi OK- analyse thématique dessus en OpenLayers
+
+
+dimanche OK- Génération des kml en python
+une fois que c'est bon, il faudra mettre à jour les attributs dans le javascript index.html (analyse them et etiquettes)
+
+dimanche OK - manque données
+Je choisis d'afficher le taux d'abstention sur la carte toute élection confondue
+
+dimanche OK - - Revenir sur les données :  faire un choix et faire les modifs en conséquence=>
+dimanche OK - 		- soit choisir d'agréger toutes élections confondues, vérifier que j'ai bien tous les arrondissements... 
+
+
+dimanche OK - Générer la légende (canvas par exemple)
+dimanche OK - Source
+dimanche OK - Améliorer la page html (ranger le js)
+
+
+
+
+
+Si je décide de faire les camemberts, il faut : 
+- mardi OK agréger les données par arrondissement par candidat par élection
+- mardi OK ajouter des onglets
+
+- choix php ou python ???
+	- besoin de se former au web en python
+			- se former
+			- afficher la liste des scrutins en php
+			- script de renvoi json pour appel ajax
+	
+	- pas de php sur gandi
+			- mardi OK paramétrer un serveur apache avec php avec mongo
+			- mardi OK afficher les scrutins en php
+			- mercredi OK l'onglet resultats ne s'affiche plus???
+			
+			
+- mercredi OK gérer le clic sur un arrondissement
+- mercredi OK appel xmlhttprequest avec idScrutin et arrondissement
+- mercredi OK script de renvoi json pour appel ajax en php sur mongo
+- mercredi OK parser json
+- mercredi OK afficher camemberts ou rectangles au plus simple en canvas
+		- mercredi OK augmenter le rayon du camembert
+		- mercredi OK afficher les noms des candidats et le score
+		- mercredi OK changer les couleurs
+		
+- mercredi OK id arrondissement à afficher dans les résultats
+- mercredi OK - video
+
+################################### Jeudi soutenance, modifs à apporter : ##################################
+###################### choix du scrutin pour le taux d'abstention+rendu valorisation projet ################
+############################################################################################################
+
+- jeudi OK commenter code
+- taux d'abstention par scrutin
+	- jeudi OK 2_agregeAbstention.py : agréger par arrondissement et scrutin
+	- jeudi OK modification de la génération kml pour prise en compte agrégation par scrutin
+	- jeudi OK ajouter select avec liste des scrutins
+	- jeudi OK script abstention.php qui prend un scrutin et renvoi le taux d'abstention par arrondissement en json
+	- coté client modif : fonction qui gere choix scrutin : 
+			- jeudi OK appel script php, calcul min / max et appel fonction style
+	- jeudi OK bug fonction style a changer
+	(function stylePoly())
+
+
+
+- capture d'écran de l'interface
+- code sur github
+	- - jeudi OK dump mongodb
+	- scripts Python
+	- doc reprenant le workflow de traitement des donnéeselections/
+	- avec la vidéo c'est mieux
+
+- indiquer contraintes techniques
+- envoyer
+
+- responsive design
+- resultats pb legislatives : enlever de la liste car circonscriptions législatives, grain plus petit que l'arrondissement
+- si trop de candidats dépassement
+- gandi
+- pb taille cercle proportionnel
+- renvoyer du json plutot que de l'html en ajax
+
