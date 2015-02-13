@@ -3,9 +3,13 @@
 # Présentation
 VizElections permet de : 
 - visualiser les taux d'abstention sur Paris par arrondissement et par scrutin et d'étudier la corrélation éventuelle de ce taux avec le revenu médian de la population
+- 
+![Interface taux d abstention](https://github.com/cwamgis/VizElections/blob/master/99_doc/visu_tx_abstention.png)
+
 - visualiser les résultats des différentes élections en cliquant sur un arrondissement et en choissant un scrutin
-![Chaîne de traitement](https://github.com/cwamgis/VizElections/blob/master/99_doc/chaine.png)
-![Résultats](https://github.com/cwamgis/Boot2GeoportalCluster/blob/master/images/architecture_logiciel.png)
+- 
+![Interface resultats](https://github.com/cwamgis/VizElections/blob/master/99_doc/visu_res.png)
+
 
 # Données
 Cette application exploite les données suivantes : 
@@ -33,4 +37,9 @@ Fichier détaillant les sprints pour les développement
 
 
 # Description du fonctionnement
+![Chaîne de traitement](https://github.com/cwamgis/VizElections/blob/master/99_doc/chaine.png)
+La dernière version du logiciel n'utilise plus le KML pour calculer la symbologie de la couche abstention.
+En effet, cette version permet à l'utilisateur de choisir un scrutin pour l'affichage des taux d'abstention.
+Ainsi, la génération du kml n'est plus nécessaire pour chaque mise à jour et pourrait donc être sortie de la chaine de traitement.
+
 # Technologies
