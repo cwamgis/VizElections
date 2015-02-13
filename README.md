@@ -15,6 +15,18 @@ Cette application exploite les données suivantes :
 - les données INSEE/DGFIP, revenus fiscaux localisés des ménages
 - la couche géographique des arrondissements de Paris l'APUR (couche shp convertie en kml)
 
+# Description du fonctionnement
+![Chaîne de traitement](https://github.com/cwamgis/VizElections/blob/master/99_doc/chaine.png)
+
+
+La dernière version du logiciel n'utilise plus le KML pour calculer la symbologie de la couche abstention.
+En effet, cette version permet à l'utilisateur de choisir un scrutin pour l'affichage des taux d'abstention.
+Ainsi, la génération du kml n'est plus nécessaire pour chaque mise à jour et pourrait donc être sortie de la chaine de traitement.
+
+![Affichage des taux d'abstention](https://github.com/cwamgis/VizElections/blob/master/99_doc/processus_visu.png)
+
+Lors d'un choix de scrutin, une requête Ajax est réalisée vers un script php qui renvoie les résultats d'abstention en consultant la base Mongo. Ce résultat au format Json est ensuite parsé côté client. Les classes d'affichage sont de cette manière calculées pour être affectées aux polygones arrondissement et à la légende.
+
 # Arborescence de l'application
 ## 0_donneesBrutes
 Répertoire contenant les données brutes
@@ -34,10 +46,7 @@ Tests de qualité sur la base
 Fichier détaillant les sprints pour les développement
 
 
-# Description du fonctionnement
-![Chaîne de traitement](https://github.com/cwamgis/VizElections/blob/master/99_doc/chaine.png)
-La dernière version du logiciel n'utilise plus le KML pour calculer la symbologie de la couche abstention.
-En effet, cette version permet à l'utilisateur de choisir un scrutin pour l'affichage des taux d'abstention.
-Ainsi, la génération du kml n'est plus nécessaire pour chaque mise à jour et pourrait donc être sortie de la chaine de traitement.
+
 
 # Technologies
+Canvas
