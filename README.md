@@ -29,6 +29,14 @@ Ainsi, la génération du kml n'est plus nécessaire pour chaque mise à jour et
 Lors d'un choix de scrutin, une requête Ajax est réalisée vers un script php qui renvoie les résultats d'abstention en consultant la base Mongo. Ce résultat au format Json est ensuite parsé côté client. Les classes d'affichage sont de cette manière calculées pour être affectées aux polygones arrondissement et à la légende.
 L'affichage des résultats se fait de la même manière.
 
+## Technologies
+L'application nécessite : 
+- python avec les packages pymongo, yaml, json, csv
+- un serveur php disposant du module mongodb-php
+
+Côté client, l'interface utilise : OpenLayers 3, JQuery1.10.2.
+La légende et les résultats sont afifichés en canvas.
+
 ## Arborescence de l'application
 ### 0_donneesBrutes
 Répertoire contenant les données brutes
@@ -50,5 +58,4 @@ Fichier détaillant les sprints pour les développement
 
 
 
-## Technologies
-Canvas
+
