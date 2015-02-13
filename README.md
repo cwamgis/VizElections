@@ -56,6 +56,10 @@ Tests de qualité sur la base
 Fichier détaillant les sprints pour les développement
 
 
-
+##Perspectives
+- responsive design
+- resultats pb legislatives : enlever de la liste car circonscriptions législatives, car le grain géographique est plus petit que l'arrondissement
+- cas de dépassement de résultats si une grande liste de candidats
+- déployer l'application sur une instance gandi
 
 
