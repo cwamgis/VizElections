@@ -3,11 +3,10 @@
 # Présentation
 VizElections permet de : 
 - visualiser les taux d'abstention sur Paris par arrondissement et par scrutin et d'étudier la corrélation éventuelle de ce taux avec le revenu médian de la population
-- 
-![Interface taux d abstention](https://github.com/cwamgis/VizElections/blob/master/99_doc/visu_tx_abstention.png)
-
 - visualiser les résultats des différentes élections en cliquant sur un arrondissement et en choissant un scrutin
 - 
+
+![Interface taux d abstention](https://github.com/cwamgis/VizElections/blob/master/99_doc/visu_tx_abstention.png)
 ![Interface resultats](https://github.com/cwamgis/VizElections/blob/master/99_doc/visu_res.png)
 
 
