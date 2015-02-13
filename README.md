@@ -52,7 +52,7 @@ Rendu web en php/js/mongo
 Image et vidéo de démo
 ### 99_qualite
 Tests de qualité sur la base
-### sprint.txt
+### sprints.txt
 Fichier détaillant les sprints pour les développement
 
 
