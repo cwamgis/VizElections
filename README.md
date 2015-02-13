@@ -24,12 +24,13 @@ Script de génération des fichiers kml
 Dumps de la base electionsdb
 ## 3_resultatWeb
 Rendu web en php/js/mongo
+## 99_doc
+Image et vidéo de démo
 ## 99_qualite
 Tests de qualité sur la base
 ## sprint.txt
 Fichier détaillant les sprints pour les développement
-## demo.mp4
-Video de démonstration
+
 
 # Description du fonctionnement
 # Technologies
