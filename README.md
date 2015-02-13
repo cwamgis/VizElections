@@ -8,6 +8,7 @@ VizElections permet de :
 
 ![Interface resultats](https://github.com/cwamgis/VizElections/blob/master/99_doc/visu_res.png)
 
+Une courte video de démonstration est disponible ici : (https://github.com/cwamgis/VizElections/blob/master/99_doc/demo.mp4)
 
 # Données
 Cette application exploite les données suivantes : 
