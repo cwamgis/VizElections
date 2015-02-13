@@ -26,8 +26,8 @@ Ainsi, la génération du kml n'est plus nécessaire pour chaque mise à jour et
 
 ![Affichage des taux d'abstention](https://github.com/cwamgis/VizElections/blob/master/99_doc/processus_visu.png)
 
-Lors d'un choix de scrutin, une requête Ajax est réalisée vers un script php qui renvoie les résultats d'abstention en consultant la base Mongo. Ce résultat au format Json est ensuite parsé côté client. Les classes d'affichage sont de cette manière calculées pour être affectées aux polygones arrondissement et à la légende.
-L'affichage des résultats se fait de la même manière.
+Lors d'un choix de scrutin, une requête Ajax est réalisée vers un script php qui renvoie les résultats d'abstention en consultant la base Mongo (écoute sur la liste select). Ce résultat au format Json est ensuite parsé côté client. Les classes d'affichage sont de cette manière calculées pour être affectées aux polygones arrondissement et à la légende.
+L'affichage des résultats se fait de la même manière en écoutant le clic sur la carte grâce à OpenLayers.
 
 ## Technologies
 L'application nécessite : 
