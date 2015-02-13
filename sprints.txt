@@ -80,17 +80,11 @@ Si je décide de faire les camemberts, il faut :
 	- - jeudi OK dump mongodb
 	- jeudi OK scripts Python
 	- jeudi OK video
-	- doc reprenant le workflow de traitement des donnéeselections/
-			faire une remarque sur le fait que la génération de kml pourrait etre faite différemment, lié à la nouvelle version
-	- capture d'écran de l'interface
-	- finaliser doc avec perspectives ci-dessous
-	- indiquer contraintes techniques
+	- vendredi OK doc reprenant le workflow de traitement des donnéeselections/
+			- vendredi OK faire une remarque sur le fait que la génération de kml pourrait etre faite différemment, lié à la nouvelle version
+	- vendredi OK capture d'écran de l'interface
+	- vendredi OK finaliser doc avec perspectives ci-dessous
+	- vendredi OK indiquer contraintes techniques
 
-Perspectives
-- responsive design
-- resultats pb legislatives : enlever de la liste car circonscriptions législatives, grain plus petit que l'arrondissement
-- si trop de candidats dépassement
-- gandi
-- pb taille cercle proportionnel
-- renvoyer du json plutot que de l'html en ajax
+
 
