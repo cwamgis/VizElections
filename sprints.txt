@@ -1,7 +1,12 @@
 
 
 ----------------------------------------------------------
-Pour une élection donnée : faire les analyses thématiques que je veux
+- vendredi :
+- Marie récup donnees insee ok
+- moi alimentation données élections dans mongo ok
+
+jeudi OK - agrégation données pour tx d'abstention
+vendredi ok - affichage kml dans openlayers
 
 samedi OK analyse thématique fonction d'un attribut sur la couche arrondissement
 => ce que je n'arrive pas à fair eà ce stade c'estr relancer la fonction d'affectation de style pour qu'elle prenne en compte le min/max d'ores et déjà calculés
