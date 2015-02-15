@@ -29,7 +29,7 @@ function clicMenu(event)
 		// changement de couleur du menu
 		$("#abs").removeClass("menuPasSelectionne");
 		$("#res").addClass("menuPasSelectionne");
-		
+		// On montre la légende, on cache les résultats
 		$('#resultats').css('visibility', 'hidden');
 		$("#legende").show();
 	}
@@ -45,9 +45,8 @@ function montreResultats()
 	// changement de couleur du menu
 	$("#res").removeClass("menuPasSelectionne");
 	$("#abs").addClass("menuPasSelectionne");
-	
+	// On montre les résultats, on cache la légende
 	$("#legende").hide();
-	console.log($("#resultats").html());
 	$('#resultats').css('visibility', 'visible');
 }
 
@@ -111,7 +110,6 @@ $.ajax({
 								context.beginPath();
 								// On commence au centre
 								context.moveTo(xCentre,yCentre); // ici
-								console.log("angleDepart = "+angleDepart+" angle arrivée = "+anglePartCourante+ "taux" + taux+" taux tot = "+tauxTot);
 								// on dessine la part de camembert
 								context.arc(xCentre,yCentre,rayon,angleDepart,anglePartCourante);
 								// on revient au centre

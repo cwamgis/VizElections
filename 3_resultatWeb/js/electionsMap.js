@@ -112,7 +112,6 @@ function rechargeStyleEtLegende()
 				});
 				
 				// On recharge le style sur la couche polygone pour qu'elle soit redessinee
-				console.log("coucou");
 				arrPoly.setStyle((stylePoly()));
 				// Calcul de la légende
 				dessineLegende();
@@ -201,7 +200,6 @@ function stylePoly()
 			i= Math.floor(diffAuMin*5/ampli);
 			if (i>4)i=4;// Cas du max
 			
-console.log("insee="+feature.get('OBJECTID')+" => "+tabCouleurs[i]+" i = "+i+"ampli="+ampli+"diffAuMin = "+diffAuMin);
 			return [new ol.style.Style({
 			fill: new ol.style.Fill({color: tabCouleurs[i]}),
 			stroke: new ol.style.Stroke({color: 'black', width: 1}),
